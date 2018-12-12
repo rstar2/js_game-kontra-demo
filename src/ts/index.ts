@@ -1,5 +1,3 @@
-/* globals kontra */
-
 import 'kontra';
 
 import '../css/style.css';

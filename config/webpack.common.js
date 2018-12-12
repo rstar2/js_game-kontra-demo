@@ -33,7 +33,7 @@ module.exports = {
             // typescript
             {
                 test: /\.ts?$/,
-                use: "ts-loader",
+                use: 'ts-loader',
                 exclude: /node_modules/
             },
 
@@ -44,9 +44,9 @@ module.exports = {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: [
                     {
-                        loader: "file-loader",
+                        loader: 'file-loader',
                         options: {
-                            name: "[name].[ext]"
+                            name: '[name].[ext]'
                         }
                     }
                 ]
@@ -54,6 +54,6 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [".ts", ".js", ".css"]
+        extensions: ['.ts', '.js', '.css']
     },
 };
